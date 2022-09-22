@@ -1,0 +1,9 @@
+.header-image{
+    background-image: url(../images/home_mobile.png);
+}
+
+@include media-breakpoint-up(lg) {
+    .header-image {
+        background-image: url(../images/home.png);
+    }
+  }

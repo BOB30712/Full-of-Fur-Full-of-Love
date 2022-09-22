@@ -1,0 +1,16 @@
+.designerlist{
+    color: $dark;
+    font-family: 'Kalam', cursive;
+    &:hover{
+        color: $warning;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .designerlist {
+        font-family: 'Kalam', cursive;
+        &:hover::before{
+            content:"- ";
+        }
+    }
+  }
