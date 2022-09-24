@@ -8,88 +8,15 @@
     <link rel="stylesheet" href="./stylesheets/allscss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  
     <style>
-        .stroke-text {
-            font-family: 'Kalam', cursive;
-        color: green;
-        font-size: 3rem;
-        white-space: nowrap;
-        }
-      .stroke-text::before {
-        content: 'Full of fur. Full of love';
-        position: absolute;
-        -webkit-text-stroke: 10px white;
-        z-index: -1;
-      }
-      .test{
-        background-image: url(images/btn.png);
-      }
-      .test:hover{
-        background-image: url(images/btn2.png);
-      }
-      .bg-dark-gradient{
-      background-image: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,0.5));
-      }
-      .author-link:hover .author{
-        display: block;
-      }
-      .author{
-        display: none;
-      }
-      .dog:hover .dog-link{
-        color:blueviolet;
-        font-size: 20px;
-        font-weight: bold;
-      }
-
-      .opacity-img {
-        -webkit-transition: opacity .3s;
-        transition: opacity .3s;
-      }
-
-      .opacity-link:hover .opacity-img {
-        opacity: 0;
-      }
-
-      .dialog-border-bottom {
-        background-color: wheat;
-        border: 2px solid black;
-        border-radius: 10px;
-        height: 65px;
-        padding: 10px;
-        margin: 10px;
-        position: relative;
-      }
-      .dialog-border-bottom:before {
-        position:absolute;
-        content:"";
-        bottom:-38px;
-        left:30%;
-        transform:translateX(-50%);
-        width: 0;
-        height: 0;
-        border-width:18px;
-        border-style:solid;
-        border-top-color: black;
-        border-right-color: transparent ;
-        border-bottom-color: transparent;
-        border-left-color: transparent ;
-      }
-      .dialog-border-bottom:after {
-        position:absolute;
-        content:"";
-        bottom:-42px;
-        left:30%;
-        transform:translateX(-50%);
-        width: 0;
-        height: 0;
-        border-width:25px;
-        border-style:solid;
-        border-top-color: wheat;
-        border-right-color: transparent ;
-        border-bottom-color: transparent;
-        border-left-color: transparent ;
+      body{
+        font-family: 'Noto Sans TC', sans-serif;
       }
     </style>
 </head>
@@ -104,19 +31,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item px-3">
-                <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                <a class="nav-link active" aria-current="page" href="home.html">首頁</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">服務介紹</a>
+                <a class="nav-link" href="service.html">服務介紹</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">設計作品</a>
+                <a class="nav-link" href="design.html">設計作品</a>
               </li>
               <li class="nav-item px-3">
-                <a class="nav-link" href="#">領養作品</a>
+                <a class="nav-link" href="Adopt.html">領養作品</a>
               </li>
               <li class="nav-item px-3">
-                <a class="header-buttom btn btn-warning rounded-pill px-4" href="#">毛孩似顏繪</a>
+                <a class="header-buttom btn btn-warning rounded-pill px-4" href="orderinfo.html">毛孩似顏繪</a>
               </li>
             </ul>
           </div>
@@ -124,7 +51,7 @@
     </nav>
     </div>
     <div class="header header-image" style="height:820px;background-repeat: no-repeat;background-size: cover; background-position: center center;">
-        <h2 class="position-absolute top-50 start-50 translate-middle d-none d-lg-block mb-0 stroke-text">Full of fur. Full of love</h2>
+        <h2 class="fw-bold position-absolute top-50 start-50 translate-middle d-none d-lg-block mb-0 stroke-text">Full of fur. Full of love</h2>
     </div>
     <div class="container">
       <div class="row justify-content-center" style="padding: 80px 0px;">
@@ -132,7 +59,7 @@
           <img class="w-100 h-100" style="object-fit: cover;" src="images/home01.png">
         </div>
         <div class="col-lg-5 d-flex flex-column justify-content-center">
-          <p class="mb-0">Service</p>
+          <p class="mb-0" style="font-family: 'Kalam';color:#F9C745; font-size: 20px;">Service</p>
           <h2 class="my-2 fw-bold">您出錢 我出力 一起助浪浪</h2>
           <p class="lh-lg">
             我們是一群貓奴才狗奴才，<br>
@@ -153,8 +80,8 @@
           <div class="card bg-dark text-white author-link border-0">
             <img src="images/05.png"  class="card-img" alt="...">
             <div class="card-img-overlay top-auto bg-dark-gradient author">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">designer</p>
+              <h5 class="card-title">Meili</h5>
             </div>
           </div>
         </div>
@@ -162,8 +89,8 @@
           <div class="card bg-dark text-white author-link border-0">
             <img src="images/06.png"  class="card-img" alt="...">
             <div class="card-img-overlay top-auto bg-dark-gradient author">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">designer</p>
+              <h5 class="card-title">Meili</h5>
             </div>
           </div>
         </div>
@@ -171,8 +98,8 @@
           <div class="card bg-dark text-white author-link border-0">
             <img src="images/07.png"  class="card-img" alt="...">
             <div class="card-img-overlay top-auto bg-dark-gradient author">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">designer</p>
+              <h5 class="card-title">Meili</h5>
             </div>
           </div>
         </div>
@@ -180,57 +107,55 @@
           <div class="card bg-dark text-white author-link border-0">
             <img src="images/08.png"  class="card-img" alt="...">
             <div class="card-img-overlay top-auto bg-dark-gradient author">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Last updated 3 mins ago</p>
+              <p class="card-text">designer</p>
+              <h5 class="card-title">Meili</h5>
             </div>
           </div>
         </div>
       </div>
       <ul class="d-flex justify-content-center p-3" style="list-style:none;">
-        <li><button type="button" class="main-btn btn btn-outline-warning mx-2 rounded-pill fs-3">查看更多作品</button></li>
-        <li><button type="button" class="btn btn-warning mx-2 rounded-pill fs-3">客製毛孩似顏繪</button></li>
+        <li><a class="main-btn btn btn-outline-warning mx-2 rounded-pill fs-3" href="design.html">查看更多作品</a></li>
+        <li><a class="btn btn-warning mx-2 rounded-pill fs-3" href="orderinfo.html">客製毛孩似顏繪</a></li>
       </ul>
     </div>
     <div class="container">
       <h2 class="d-flex justify-content-center"><img src="images/title02.png" alt="title"></h2>
       <p class="d-flex justify-content-center fw-bold">這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
       <div class="row row-cols-1 row-cols-lg-3 g-3">
-        <div class="col dog">
-          <div class="card shadow-sm">
+        <div class="col">
+          <div class="card shadow-sm adopt">
             <img src="images/dog01.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text mb-0 fw-bold">等家中-小華</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-0">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出很像貓的叫聲，相當有活力，不適合關籠會發出像獅子的叫聲。
-                  如果照片看起來像你家人，歡迎帶回家一家團圓！</li>
-                <li class="list-group-item text-center dog-link">more</li>
-              </ul>
+            <img src="images/dog01-hover-1.png" class="adoptimage card-img-top position-absolute top-0 start-0 tt2" alt="...">
+            <div class="card-body py-0">
+              <p class="card-text py-3 mb-0 fw-bold">等家中-華仔</p>
+              <p class="card-text">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
+              <div class="text-center py-3 border-top">
+              <a href="AdoptPetInfo.html" class="stretched-link adopttext fs-5" style="text-decoration:none;">more</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col dog">
-          <div class="card shadow-sm">
+          <div class="card shadow-sm adopt">
             <img src="images/06.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text mb-0 fw-bold">等家中-小華</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-0">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出很像貓的叫聲，相當有活力，不適合關籠會發出像獅子的叫聲。
-                  如果照片看起來像你家人，歡迎帶回家一家團圓！</li>
-                <li class="list-group-item text-center dog-link">more</li>
-              </ul>
+            <div class="card-body py-0">
+              <p class="card-text py-3 mb-0 fw-bold">等家中-小呆</p>
+              <p class="card-text">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
+              <div class="text-center py-3 border-top">
+                <a href="AdoptPetInfo.html" class="stretched-link adopttext fs-5" style="text-decoration:none;">more</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col dog">
-          <div class="card shadow-sm">
+          <div class="card shadow-sm adopt">
             <img src="images/08.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-text mb-0 fw-bold fs-6">等家中-小華</h3>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-0">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出很像貓的叫聲，相當有活力，不適合關籠會發出像獅子的叫聲。
-                  如果照片看起來像你家人，歡迎帶回家一家團圓！</li>
-                <li class="list-group-item text-center dog-link">more</li>
-              </ul>
+            <div class="card-body py-0">
+              <p class="card-text py-3 mb-0 fw-bold">等家中-Snow</p>
+              <p class="card-text">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
+              <div class="text-center py-3 border-top">
+                <a href="AdoptPetInfo.html" class="stretched-link adopttext fs-5" style="text-decoration:none;">more</a>
+              </div>
             </div>
           </div>
         </div>
@@ -289,10 +214,6 @@
 <script>
   const imgs=[
     {
-      hover:"dog01-hover-1",
-      normal:"dog01"
-    },
-    {
       hover:"dog01-hover",
       normal:"06"
     },
@@ -305,6 +226,8 @@
   dog.forEach((item,index)=>{
     item.addEventListener("mouseover",function(e){
       const img = item.querySelector('.card-img-top');
+      //document.querySelector(".ttw").classList.add("shadow");
+      //document.querySelector(".ttw").classList.remove("shadow-sm");
       img.src = `images/${imgs[index].hover}.png`;
     });
     item.addEventListener("mouseout",function(e){
