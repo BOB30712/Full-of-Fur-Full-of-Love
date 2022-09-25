@@ -11063,6 +11063,7 @@ textarea.form-control-lg {
 
 .adoptimage {
   opacity: 0;
+  transition: opacity 0.9s;
 }
 
 .adopttext {

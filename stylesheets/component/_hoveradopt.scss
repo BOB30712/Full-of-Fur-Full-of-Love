@@ -12,6 +12,7 @@
 }
 .adoptimage{
     opacity: 0;
+    transition: opacity 0.9s;
 }
 .adopttext{
     color: $dark;
